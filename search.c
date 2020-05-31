@@ -2,6 +2,8 @@
 #include <string.h>
 #include "phone.h"
 
+extern int size;
+
 void searchByName()
 {
 	printf("Search by Name\n");

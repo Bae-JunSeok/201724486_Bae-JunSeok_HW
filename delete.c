@@ -1,6 +1,8 @@
 #include <stdio.h>
-#include "phone.h"
 #include <string.h>
+#include "phone.h"
+
+extern int size;
 
 void deleteByName()
 {

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "phone.h"
 
+extern int size;
+
 void printAll()
 {
 		printf("Print all contants int the PhoneBook\n");

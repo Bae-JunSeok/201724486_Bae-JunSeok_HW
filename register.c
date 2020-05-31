@@ -2,6 +2,8 @@
 #include "phone.h"
 #include <string.h>
 
+extern int size;
+
 void registerPhoneData()
 {
 	printf("Registration\n");
