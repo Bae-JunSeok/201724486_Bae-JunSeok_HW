@@ -19,6 +19,7 @@ void deleteByName()
 			i++;
 		}
 		printf("%s is deleted\n", name);
+		printf("Deletion is done\n");
 		size--;
 	}
 	else

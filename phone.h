@@ -3,7 +3,7 @@
 struct Contact 
 {
 	char Name[10];
-	char PhoneNumber[13];
+	char PhoneNumber[14];
 };
 
 struct Contact PhoneBook[MAX];

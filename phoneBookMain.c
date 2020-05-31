@@ -2,10 +2,10 @@
 #include <string.h>
 #include "phone.h"
 
-void registerPhoneData();
-void printAll();
-void searchByName();
-void deleteByName();
+extern void registerPhoneData();
+extern void printAll();
+extern void searchByName();
+extern void deleteByName();
 
 static int count_service = 0;
 
@@ -21,10 +21,18 @@ int main()
 
 		switch(service)
 		{
-			case 1: registerPhoneData(); break;
-			case 2: printAll(); break;
-			case 3: searchByName(); break;
-			case 4: deleteByName(); break;
+			case 1: registerPhoneData();
+			       	count_service++;	
+				break;
+			case 2: printAll();
+				count_service++;
+			       	break;
+			case 3: searchByName();
+				count_service++;
+			       	break;
+			case 4: deleteByName();
+				count_service++;
+			       	break;
 		}
 	}while(service != 5);
 	return 0;
